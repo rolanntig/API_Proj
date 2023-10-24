@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#slContainer {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  width: 30vw;
+  text-align: center;
+  gap: 10px;
+}
+
+#bussContainer {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+#calendarContainer {
+  display: flex;
+  flex-direction: row;
+}
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+  width: 15vw;
+}
+
+li {
+  padding-top: 20px;
+  border: solid black 3px;
+  border-radius: 5px;
+}
